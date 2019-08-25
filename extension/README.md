@@ -1,3 +1,5 @@
+Commands to build the kernel:
+
 COMPILE SINGLE .c FILE INTO .elf FILE
 arm-none-eabi-gcc -O2 -mfpu=vfp -mfloat-abi=hard -march=armv6zk -mtune=arm1176jzf-s -nostartfiles file.c -o kernel.elf
 
